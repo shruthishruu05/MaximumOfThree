@@ -4,9 +4,9 @@ public class MaximumOfThree
 {
 	public static void main(String args[])
 	{
-	      int number1 = 10;
-	      int number2 = 55;
-	      int number3 = 17;
+	      float number1 = 10.5f;
+	      float number2 = 55.6f;
+	      float number3 = 17.3f;
 	      if (number1 >= number2 && number1 >= number3)
 	      {
 	         System.out.println( number1 + " is the maximum number.");
