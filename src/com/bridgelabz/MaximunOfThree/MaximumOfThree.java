@@ -1,24 +1,21 @@
 package com.bridgelabz.MaximunOfThree;
 
-public class MaximumOfThree {
-	public static <E extends Comparable<E>> E maximum(E number1, E number2, E number3)
+public class MaximumOfThree 
+{
+	public static void main(String args[])
 	{
-	    E maximumAmongThree = number1; 
-	    if (number2.compareTo(maximumAmongThree) > 0)
-	    	maximumAmongThree = number2; 
-	    if (number3.compareTo(maximumAmongThree) > 0)
-	    	maximumAmongThree = number3; 
-
-	    return maximumAmongThree;   
+	      int number1 = 10;
+	      int number2 = 55;
+	      int number3 = 17;
+	      if (number1 >= number2 && number1 >= number3)
+	      {
+	         System.out.println( number1 + " is the maximum number.");
+	      }
+	      else if (number2 >= number1 && number2 >= number3)
+	         System.out.println( number2 + " is the maximum number.");
+	      else
+	         System.out.println( number3 + " is the maximum number.");
 	}
-
-	  public static void main(String args[]) 
-	  {
-		  int number1=5;
-		  int number2=9;
-		  int number3=7;
-		  
-	    System.out.printf("Maximum of three " +number1+ " , " +number2+ " , "+number3+ " is " + maximum(number1,number2,number3));
-	  }
-	   
 }
+	
+
